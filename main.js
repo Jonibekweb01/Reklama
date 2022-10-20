@@ -78,7 +78,7 @@ elRun.addEventListener('click', function () {
     }, 1000);
     setTimeout(() => {
         clearInterval(setTime);
-        elRes.textContent;
-        elRun.style.display = "none";
+        elRes.textContent = "X";
     }, 5000);
+    elRes.textContent == "X" ? elRun.style.display = "none" : "Qilinmadi"
 })
